@@ -125,8 +125,8 @@ function HomeScreen({navigation}) {
             // style={style.thumbnail}
           />
       )} */}
-      <Link to={{ screen: "About" }}>Go to About</Link>
-      <Text> Search medicine here by uploading a picture or searching using the medicine name </Text>
+      {/* <Link to={{ screen: "About" }}>Go to About</Link> */}
+      <Text> Search medicine here by uploading a picture or searching using the medicine NDC </Text>
       <Text style={styles.spaces}></Text>
       <Text>Add via Image</Text>
       <Text style={{padding: 10}}></Text>

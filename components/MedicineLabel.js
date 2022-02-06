@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     marginLeft: 20,
     fontSize: 15,
     flexWrap: 'wrap',
+    flexShrink: 1,
   },
   dataTime: {
     fontFamily: "merriweather",
